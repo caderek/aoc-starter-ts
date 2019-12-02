@@ -10,6 +10,16 @@ This repo contains zero-setup environment for Advent of Code challenges, with:
 
 ## Installation
 
+Clone the repo and go to the created folder:
+
+```
+git clone https://github.com/caderek/aoc-starter-ts.git aoc2019
+```
+
+```
+cd aoc2019
+```
+
 Using NPM:
 
 ```
