@@ -1,4 +1,4 @@
-import u, { test, readInput } from "../utils"
+import { test, readInput } from "../utils/index"
 
 const rawInput = readInput()
 const input = rawInput
