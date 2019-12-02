@@ -1,0 +1,20 @@
+{
+  "name": "aoc2019",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./scripts/start.js"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "core-js": "^3.4.5",
+    "nodemon": "^2.0.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "get-caller-file": "^2.0.5",
+    "kleur": "^3.0.3"
+  }
+}
