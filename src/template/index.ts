@@ -17,6 +17,7 @@ const goB = (input) => {
 // test()
 
 /* Results */
+
 console.time("Time")
 const resultA = goA(input)
 const resultB = goB(input)
