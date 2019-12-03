@@ -1,9 +1,15 @@
 import { isDeepStrictEqual } from "util"
 import * as kleur from "kleur"
+import { curry } from "@arrows/composition"
 
 let index = 0
 
-export const test = <T>(result: T, expected: T) => {
+type Test = {
+  <T>(result: T, expected: T): boolean
+  <T>(result: T): (expected: T) => boolean
+}
+
+export const test: Test = curry((result, expected) => {
   const passed = isDeepStrictEqual(result, expected)
 
   if (passed) {
@@ -19,4 +25,4 @@ export const test = <T>(result: T, expected: T) => {
   }
 
   index++
-}
+})
