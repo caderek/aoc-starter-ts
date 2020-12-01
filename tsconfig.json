@@ -3,7 +3,8 @@
     "target": "es2019",
     "allowJs": true,
     "strict": false,
-    "lib": ["dom", "es2019"]
+    "lib": ["dom", "es2019"],
+    "moduleResolution": "node"
   },
   "include": ["src", "examples/passThrough.ts"],
   "exclude": ["node_modules", "src/**/*.test.ts", "src/**/*.temp.ts"]
