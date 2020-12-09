@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es2019",
+    "moduleResolution": "Node",
     "allowJs": true,
     "strict": false,
     "lib": ["dom", "es2019"]
