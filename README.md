@@ -1,6 +1,6 @@
 # Advent of Code 2019 starter for JS/TS
 
-**While the template from this repo still works, cocider using the improved version: https://github.com/caderek/aocrunner**
+**While the template from this repo still works, cosider using the improved version: https://github.com/caderek/aocrunner**
 
 ## Intro
 
