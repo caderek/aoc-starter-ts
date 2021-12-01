@@ -1,5 +1,7 @@
 # Advent of Code 2019 starter for JS/TS
 
+**While the template from this repo still works, cocider using the improved version: https://github.com/caderek/aocrunner**
+
 ## Intro
 
 This repo contains zero-setup environment for [Advent of Code](https://adventofcode.com/2019) challenges, with:
